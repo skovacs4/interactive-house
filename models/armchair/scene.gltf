@@ -1,0 +1,309 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1208,
+      "max": [
+        446.0562744140625,
+        430.3570251464844,
+        642.3546752929688
+      ],
+      "min": [
+        -446.08294677734375,
+        -431.4829406738281,
+        -3.6905184970237315e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 14496,
+      "componentType": 5126,
+      "count": 1208,
+      "max": [
+        0.9998258948326111,
+        0.9995805025100708,
+        0.9999659657478333
+      ],
+      "min": [
+        -0.9998259544372559,
+        -0.999995231628418,
+        -0.9196802377700806
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1208,
+      "max": [
+        0.9998982548713684,
+        0.9999094009399414,
+        0.9998374581336975,
+        1.0
+      ],
+      "min": [
+        -0.9998982548713684,
+        -0.9999659061431885,
+        -0.999995231628418,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1208,
+      "max": [
+        0.9843155145645142,
+        0.9916132092475891
+      ],
+      "min": [
+        0.009176117368042469,
+        0.007739070802927017
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6432,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Ngngan (https://sketchfab.com/nguyenngocngan130219)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/armchair-poppi-fc7e9117d1d04a67b1356bb19f333c11",
+      "title": "Armchair Poppi"
+    },
+    "generator": "Sketchfab-15.30.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 25728,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9664,
+      "byteOffset": 25728,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28992,
+      "byteOffset": 35392,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19328,
+      "byteOffset": 64384,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 83712,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_2146932551_baseColor.png"
+    },
+    {
+      "uri": "textures/Material_2146932551_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Material_2146932551_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material_2146932551",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.6567639063280954
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder001_Material #2146932551_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "026a286b66ca48a9a65146dbcee74a57.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.0937528982758522,
+        -1.3108525781553491e-18,
+        1.4444921133004337e-34,
+        0.0,
+        1.250087806911805e-25,
+        8.940696827330896e-09,
+        -0.10000000149011573,
+        0.0,
+        1.3981995456093584e-18,
+        0.10000000149011573,
+        8.940696827330896e-09,
+        0.0,
+        -0.0012501716846600175,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cylinder001"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.013334754854440689,
+        1.5628243571361995e-26,
+        1.7479895401469911e-19,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "Cylinder001_Material #2146932551_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
